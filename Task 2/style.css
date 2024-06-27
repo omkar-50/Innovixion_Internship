@@ -1,0 +1,54 @@
+
+body{
+    background: #e8c203;
+}
+section.todo-outer {
+    margin-top: 5%;
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+}
+section.todo-outer h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: forte;
+    color: aqua;
+    text-shadow: 0 10px 10px rgba(248, 0, 207, 0.747);
+}
+#addtaskbtn,#savetaskbtn{
+    width: 9rem;
+    /* height: 2.3rem; */
+    outline: white solid;
+    background-color: rgb(87, 248, 0);
+    color: rgb(255, 255, 255);
+}
+#addtaskbtn:hover{
+    background-color: rgb(46, 195, 1);
+}
+#savetaskbtn:hover{
+    background-color: rgb(46, 195, 1);
+}
+.todo-inner {
+    width: 100%;
+    float: left;
+    padding: 40px;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+    background: rgb(223, 164, 249);
+}
+table{
+    border-top: 5px solid rgb(244, 1, 1);
+    margin-top: 3rem;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table tr td button {
+    background: no-repeat;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.to-do-output{
+    width: 100%;
+}
